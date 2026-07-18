@@ -31,11 +31,11 @@ const EDUCATION: EducationItem[] = [
 
 export function Education() {
   return (
-      <section
-        id="education"
-        className="border-t border-black/[.08] bg-zinc-50 dark:border-white/[.145] dark:bg-zinc-900/40"
-      >
-        <FadeIn>
+    <section
+      id="education"
+      className="border-t border-black/[.08] bg-zinc-50 dark:border-white/[.145] dark:bg-zinc-900/40"
+    >
+      <FadeIn>
         <Container size="narrow" className="py-32">
           <SectionHeading eyebrow="03" title="Education" />
 
@@ -76,7 +76,7 @@ export function Education() {
             ))}
           </ol>
         </Container>
-        </FadeIn>
-      </section>
+      </FadeIn>
+    </section>
   );
 }

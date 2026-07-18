@@ -5,11 +5,11 @@ import { HatchPattern } from "@/components/ui/HatchPattern";
 
 export function Hero() {
   return (
-    <FadeIn>
-      <section id="hero" className="flex min-h-[90vh] items-center">
-        <HatchPattern />
+    <section id="hero" className="flex min-h-[90vh] items-center">
+      <HatchPattern />
+      <FadeIn>
         <Container>
-          <div className="flex flex-col-reverse items-center gap-40 sm:flex-row sm:justify-between">
+          <div className="flex flex-col-reverse items-center justify-center gap-16 sm:flex-row">
             <div className="flex flex-col items-center gap-4 text-center sm:items-start sm:text-left">
               <p className="text-sm font-medium uppercase tracking-widest text-zinc-500 dark:text-zinc-500">
                 Hello! I'm
@@ -49,7 +49,7 @@ export function Hero() {
             </div>
           </div>
         </Container>
-      </section>
-    </FadeIn>
+      </FadeIn>
+    </section>
   );
 }
