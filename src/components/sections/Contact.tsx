@@ -1,20 +1,21 @@
 import { Mail } from "lucide-react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const CONTACT_LINKS = [
   {
-    label: "Email",
+    label: "Email Me",
     href: "mailto:yogatamaradix55@gmail.com",
     icon: Mail,
   },
   {
-    label: "GitHub",
+    label: " My GitHub",
     href: "https://github.com/yogatamaRadik",
-    icon: null,
+    icon: FaGithub,
   },
   {
-    label: "LinkedIn",
+    label: " My LinkedIn",
     href: "https://linkedin.com/in/itsyogatamaradik",
-    icon: null,
+    icon: FaLinkedin,
   },
 ];
 
@@ -22,7 +23,7 @@ export function Contact() {
   return (
     <section id="contact" className="mx-auto max-w-3xl px-6 py-20">
       <h2 className="text-2xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50">
-        Contact
+        Get In Touch with Me!
       </h2>
       <p className="mt-4 max-w-md text-lg text-zinc-600 dark:text-zinc-400">
         I'm always open to new opportunities, collaborations, or just a
