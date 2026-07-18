@@ -10,28 +10,28 @@ const PROJECTS: Project[] = [
     title: "CNC Engraving Machine with GSK980TDa Control System",
     period: "2025–2026 · Final Year Capstone Project",
     description:
-      "Designed and built a 2-axis CNC engraving machine with an additional pneumatic Z-axis using a double-acting cylinder. Developed the mechanical, electrical, and pneumatic systems, including assembly, wiring, panel integration, and component installation. Configured the GSK980TDa controller with Mitsubishi MR-J3 servo drives and HF-KP23 servo motors for precise motion control.",
-    tech: ["GSK980TDa", "Servo Motion Control", "Pneumatics", "CNC Machining"],
+      "Designed and built a 2-axis CNC engraving machine with an additional pneumatic Z-axis using a double-acting cylinder.",
+    tech: ["GSK980TDa", "Servo Motion Control", "Pneumatics", "CNC Machining", "Conventional Milling", "Conventional Lathe", "Drilling"],
   },
   {
     title: "Safe Coin Treasury and Investment System",
     period: "2024–2025 · Project Protocol",
     description:
-      "Designed a coin-based asset lending management system for students, requiring physical coin exchange as collateral for borrowed equipment. Integrated multiple hardware components including an Arduino MEGA 2560, RFID reader, HMI, RTC module, and DHT22 sensor, with a custom 3D-printed PLA enclosure. Developed embedded control logic for user authentication, transaction recording, and environmental monitoring.",
+      "Designed a coin-based asset lending management system for students, requiring physical coin exchange as collateral for borrowed equipment.",
     tech: ["Arduino", "RFID", "Embedded Systems", "3D Printing"],
   },
   {
     title: "Vertical Machining Center (VMC) Control System Integration",
     period: "2024–2025 · Mechatronics Industrial Practice",
     description:
-      "Configured and verified CNC machine parameters on a Siemens 808D controller for VMC operation. Developed PLC I/O addressing and signal allocation for machine control, automation, and safety functions, ensuring proper integration between the CNC controller, PLC signals, and machine peripherals.",
+      "Configured and verified CNC machine parameters on a Siemens 808D controller for VMC operation.",
     tech: ["Siemens 808D", "PLC", "CNC Integration"],
   },
   {
     title: "Infant Warmer Testing and Wiring",
     period: "2024–2025 · Mechatronics Industrial Practice",
     description:
-      "Performed electrical wiring installation, troubleshooting, and wiring revisions for Infant Warmer medical devices based on technical specifications. Conducted functional testing and temperature monitoring at 10-minute intervals to verify system stability, heating performance, and operational safety.",
+      "Performed electrical wiring installation, troubleshooting, and wiring revisions for Infant Warmer medical devices based on technical specifications.",
     tech: ["Electrical Wiring", "Medical Devices", "Systems Testing"],
   },
 ];

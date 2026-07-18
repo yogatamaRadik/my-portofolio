@@ -11,8 +11,7 @@ export function Hero() {
           Yogatama Radik
         </h1>
         <p className="max-w-md text-lg text-zinc-600 dark:text-zinc-400">
-          CS student building things — learning modern web development one
-          project at a time.
+          Always looking to learn something!
         </p>
         <div className="flex gap-4 pt-2">
             <a
