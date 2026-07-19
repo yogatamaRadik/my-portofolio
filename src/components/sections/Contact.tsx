@@ -3,13 +3,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Container } from "@/components/ui/Container";
+import { ContactForm } from "@/components/ui/ContactForm";
 
 const CONTACT_LINKS = [
-  {
-    label: "Email Me",
-    href: "mailto:yogatamaradix55@gmail.com",
-    icon: Mail,
-  },
   {
     label: " My GitHub",
     href: "https://github.com/yogatamaRadik",
@@ -49,6 +45,7 @@ export function Contact() {
             </a>
           ))}
         </div>
+        <ContactForm />
       </Container>
       </FadeIn>
     </section>

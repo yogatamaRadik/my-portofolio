@@ -1,13 +1,11 @@
 import Image from "next/image";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { Container } from "@/components/ui/Container";
-import { HatchPattern } from "@/components/ui/HatchPattern";
 
 export function Hero() {
   return (
-    <section id="hero" className="flex min-h-[90vh] items-center">
-      <HatchPattern />
-      <FadeIn>
+    <section id="hero" className="relative flex min-h-[90vh] items-center overflow-hidden">
+        <FadeIn>
         <Container>
           <div className="flex flex-col-reverse items-center justify-center gap-16 sm:flex-row">
             <div className="flex flex-col items-center gap-4 text-center sm:items-start sm:text-left">

@@ -1,6 +1,25 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { EXPERIENCE } from "@/lib/data";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const item = EXPERIENCE.find((entry) => entry.slug === slug);
+
+  if (!item) {
+    return { title: "Experience Not Found" };
+  }
+
+  return {
+    title: item.role,
+    description: item.summary,
+  };
+}
 
 export function generateStaticParams() {
   return EXPERIENCE.map((item) => ({ slug: item.slug }));

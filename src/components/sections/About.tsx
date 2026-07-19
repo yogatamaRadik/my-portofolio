@@ -7,7 +7,7 @@ export function About() {
   return (
     <section id="about" className="border-t border-black/[.10] bg-zinc-50 dark:border-white/[.250] dark:bg-zinc-900/40">
       <FadeIn>
-        <Container className="py-20">
+        <Container className="py-28">
           <div className="mx-auto max-w-3xl px-6 py-20">
             <SectionHeading eyebrow="01" title="About" />
             <p className="mt-6 max-w-2xl text-lg leading-7 text-zinc-600 dark:text-zinc-400">
