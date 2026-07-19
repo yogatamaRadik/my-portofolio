@@ -1,4 +1,3 @@
-import { Mail } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -26,7 +25,7 @@ export function Contact() {
         <SectionHeading eyebrow="06" title="Get In Touch with Me!" />
 
        <p className="mt-4 max-w-md text-lg text-zinc-600 dark:text-zinc-400">
-          I'm always open to new opportunities, collaborations, or just a
+          I&apos;m always open to new opportunities, collaborations, or just a
           good conversation about engineering and technology or anything else. Feel free to
           reach out!
        </p>

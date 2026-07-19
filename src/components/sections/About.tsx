@@ -17,7 +17,7 @@ export function About() {
               problems, from wiring and testing devices, configuring CNC
               Controllers, to designing a full CNC Machine as my Final Years
               Project (Capstone Project). Alongside my mechatronics background,
-              I'm expanding into modern software development, building this
+              I&apos;m expanding into modern software development, building this
               very website as part of that journey. Excited about solving real,
               and hands-on problems. Always looking for the next thing to learn!
             </p>
