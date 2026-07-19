@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Yogatama Radik — Mechatronics Engineer & Developer",
     description:
       "Portfolio showcasing mechatronics engineering projects, industrial automation experience, and software development.",
-    url: "https://your-domain.vercel.app",
+    url: "https://my-portofolio-six-smoky.vercel.app/",
     siteName: "Yogatama Radik Portfolio",
     locale: "en_US",
     type: "website",
@@ -55,8 +55,8 @@ export default function RootLayout({
     >
       <head>
         <script
-        dangerouslySetInnerHTML={{
-          __html: `
+          dangerouslySetInnerHTML={{
+            __html: `
           (function () {
             const stored = localStorage.getItem("theme");
             const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -64,7 +64,7 @@ export default function RootLayout({
             if (isDark) document.documentElement.classList.add("dark");
           })();
         `,
-        }}
+          }}
         />
       </head>
       <body className="min-h-full flex flex-col">

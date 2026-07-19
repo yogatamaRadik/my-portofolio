@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { EXPERIENCE, PROJECTS } from "@/lib/data";
 
-const BASE_URL = "https://your-domain.vercel.app";
+const BASE_URL = "https://my-portofolio-six-smoky.vercel.app/";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = ["", "/about"].map((route) => ({
