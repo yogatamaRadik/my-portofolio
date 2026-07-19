@@ -115,6 +115,9 @@ export function Navbar() {
               </a>
             </li>
           ))}
+          <li className="pt-2">
+            <ThemeToggle />
+          </li>
         </ul>
       )}
     </header>
