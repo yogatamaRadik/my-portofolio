@@ -35,7 +35,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     label: "TikTok",
-    href: "www.tiktok.com/@radixixixixi_",
+    href: "https://www.tiktok.com/@radixixixixi_?_r=1&_t=ZS-98BfN60XIYB",
     icon: FaTiktok,
   },
 ];
