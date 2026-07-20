@@ -24,7 +24,7 @@ const EDUCATION: EducationItem[] = [
     institution: "SMK Katolik St. Mikael Surakarta",
     degree: "Vocational High School — Mechanical Engineering",
     period: "2020–2023",
-    detail: "Overall Grade: 86.32",
+    detail: "• Overall Grade: 86.32",
     logo: "/logos/mikael.png",
   },
 ];
@@ -36,7 +36,7 @@ export function Education() {
       className="border-t border-black/[.08] bg-zinc-50 dark:border-white/[.145] dark:bg-zinc-900/40"
     >
       <FadeIn>
-        <Container size="narrow" className="py-32">
+        <Container size="narrow" className="font-display py-32">
           <SectionHeading eyebrow="03" title="Education" />
 
           <ol className="mt-10 space-y-10">

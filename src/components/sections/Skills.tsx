@@ -49,7 +49,7 @@ export function Skills() {
   return (
     <section id="skills" className="border-t border-black/[.08] dark:border-white/[.250]">
       <FadeIn>
-        <Container size="narrow" className="py-28">
+        <Container size="narrow" className="font-display py-28">
           <SectionHeading eyebrow="04" title="Skills" />
 
           <div className="mt-10 space-y-8">

@@ -38,7 +38,7 @@ export default async function ExperienceDetailPage({
   }
 
   return (
-    <article className="mx-auto max-w-3xl px-6 py-20">
+    <article className="font-display mx-auto max-w-3xl px-6 py-20">
       <Link
         href="/#experience"
         className="text-sm font-medium text-zinc-500 hover:text-zinc-950 dark:hover:text-zinc-50"

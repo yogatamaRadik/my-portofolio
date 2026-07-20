@@ -8,7 +8,7 @@ export function Experience() {
   return (
     <section id="experience" className="border-t border-black/[.08] dark:border-white/[.250]">
       <FadeIn>
-        <Container size="narrow" className="py-20">
+        <Container size="narrow" className="font-display py-20">
           <SectionHeading eyebrow="02" title="Experiences" />
 
           <ol className="mt-10 space-y-10">

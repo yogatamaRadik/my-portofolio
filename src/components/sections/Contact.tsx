@@ -21,7 +21,7 @@ export function Contact() {
   return (
     <section id="contact" className="border-t border-black/[.08] dark:border-white/[.250]">
       <FadeIn>
-      <Container size="narrow" className="py-20">
+      <Container size="narrow" className="font-display py-20">
         <SectionHeading eyebrow="06" title="Get In Touch with Me!" />
 
        <p className="mt-4 max-w-md text-lg text-zinc-600 dark:text-zinc-400">

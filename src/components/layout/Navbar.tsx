@@ -75,11 +75,11 @@ export function Navbar() {
         }`}
     >
       <nav className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
-        <Link href="/" className="animate-text-shimmer font-semibold text-zinc-950 dark:text-zinc-50">
+        <Link href="/" className="font-display animate-text-shimmer font-semibold text-zinc-950 dark:text-zinc-50">
           RADIK
         </Link>
 
-        <div className="hidden items-center gap-6 sm:flex">
+        <div className="font-display hidden items-center gap-6 sm:flex">
           <ul className="flex items-center gap-6 font-medium">
             {NAV_LINKS.map((link) => (
               <li key={link.href}>
@@ -107,7 +107,7 @@ export function Navbar() {
       {isMenuOpen && (
         <ul
           id="mobile-menu"
-          className="flex flex-col gap-4 border-t border-black/[.08] px-6 py-4 font-medium dark:border-white/[.145] sm:hidden"
+          className="font-display flex flex-col gap-4 border-t border-black/[.08] px-6 py-4 font-medium dark:border-white/[.145] sm:hidden"
         >
           {NAV_LINKS.map((link) => (
             <li key={link.href}>

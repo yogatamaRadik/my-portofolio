@@ -6,7 +6,7 @@ import { Container } from "@/components/ui/Container";
 
 export function Projects() {
   return (
-    <section id="projects" className="border-t border-black/[.08] dark:border-white/[.250] bg-zinc-50 dark:bg-zinc-900/40">
+    <section id="projects" className="font-display border-t border-black/[.08] dark:border-white/[.250] bg-zinc-50 dark:bg-zinc-900/40">
       <FadeIn>
         <Container className="py-20">
           <div className="mx-auto max-w-3xl px-6 py-20">

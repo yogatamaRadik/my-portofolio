@@ -8,7 +8,7 @@ export function About() {
     <section id="about" className="border-t border-black/[.10] bg-zinc-50 dark:border-white/[.250] dark:bg-zinc-900/40">
       <FadeIn>
         <Container className="py-28">
-          <div className="mx-auto max-w-3xl px-6 py-20">
+          <div className="font-display mx-auto max-w-3xl px-6 py-20">
             <SectionHeading eyebrow="01" title="About" />
             <p className="mt-6 max-w-2xl text-lg leading-7 text-zinc-600 dark:text-zinc-400">
               Final-Year Mechatronics Engineering Student (D3) at Politeknik ATMI
@@ -16,10 +16,7 @@ export function About() {
               Automation, and PLC Programming. My work has spanned real engineering
               problems, from wiring and testing devices, configuring CNC
               Controllers, to designing a full CNC Machine as my Final Years
-              Project (Capstone Project). Alongside my mechatronics background,
-              I&apos;m expanding into modern software development, building this
-              very website as part of that journey. Excited about solving real,
-              and hands-on problems. Always looking for the next thing to learn!
+              Project (Capstone Project). Always looking for the next thing to learn!
             </p>
 
             <Link
