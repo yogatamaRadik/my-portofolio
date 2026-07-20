@@ -1,3 +1,45 @@
+import {
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaThreads,
+  FaTiktok,
+} from "react-icons/fa6";
+
+export type SocialLink = {
+  label: string;
+  href: string;
+  icon: typeof FaGithub;
+};
+
+export const SOCIAL_LINKS: SocialLink[] = [
+  {
+    label: "GitHub",
+    href: "https://github.com/yogatamaRadik",
+    icon: FaGithub,
+  },
+  {
+    label: "LinkedIn",
+    href: "https://linkedin.com/in/itsyogatamaradik",
+    icon: FaLinkedin,
+  },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/radixixixixi_?utm_source=qr",
+    icon: FaInstagram,
+  },
+  {
+    label: "Threads",
+    href: "https://www.threads.com/@radixixixixi_?igshid=NTc4MTIwNjQ2YQ==",
+    icon: FaThreads,
+  },
+  {
+    label: "TikTok",
+    href: "www.tiktok.com/@radixixixixi_",
+    icon: FaTiktok,
+  },
+];
+
 export type ExperienceItem = {
   slug: string;
   role: string;

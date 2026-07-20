@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { SOCIAL_LINKS } from "@/lib/data";
 
 type Certification = {
   name: string;
@@ -179,6 +180,24 @@ export default function AboutPage() {
         ))
         }
       </ul >
+      <h2 className="mt-12 text-xl font-semibold text-zinc-950 dark:text-zinc-50">
+        Connect with me
+      </h2>
+
+      <div className="mt-6 flex flex-wrap gap-4">
+        {SOCIAL_LINKS.map(({ label, href, icon: Icon }) => (
+          <a
+            key={label}
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 rounded-full border border-black/[.08] px-5 py-2.5 text-sm font-medium text-zinc-950 transition-all hover:scale-105 hover:bg-black/[.04] dark:border-white/[.145] dark:text-zinc-50 dark:hover:bg-white/[.06]"
+          >
+            <Icon className="h-4 w-4" />
+            {label}
+          </a>
+        ))}
+      </div>
     </article >
   );
 }

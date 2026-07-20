@@ -11,8 +11,7 @@ export function About() {
           <div className="font-display mx-auto max-w-3xl px-6 py-20">
             <SectionHeading eyebrow="01" title="About" />
             <p className="mt-6 max-w-2xl text-lg leading-7 text-zinc-600 dark:text-zinc-400">
-              Final-Year Mechatronics Engineering Student (D3) at Politeknik ATMI
-              Surakarta, with hands-on experience across CNC Machining, Industrial
+              Final-Year Mechatronics Engineering Student (D3), with hands-on experience across CNC Machining, Industrial
               Automation, and PLC Programming. My work has spanned real engineering
               problems, from wiring and testing devices, configuring CNC
               Controllers, to designing a full CNC Machine as my Final Years
