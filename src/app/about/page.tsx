@@ -7,6 +7,7 @@ type Certification = {
   period: string;
   credentialId?: string;
   verifyUrl?: string;
+  imageUrl?: string;
 };
 
 const CERTIFICATIONS: Certification[] = [
@@ -21,6 +22,7 @@ const CERTIFICATIONS: Certification[] = [
     period: "2023–2026",
     credentialId: "C-4ESMLHRVT6",
     verifyUrl: "https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-4ESMLHRVT6",
+    imageUrl: "/certificates/CSWA.png",
   },
   {
     name: "SolidWorks Electrical – Electrical Wiring Design",
@@ -28,6 +30,20 @@ const CERTIFICATIONS: Certification[] = [
     period: "2023–2026",
     credentialId: "C-EUCL5FWPM4",
     verifyUrl: "https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-EUCL5FWPM4",
+    imageUrl: "/certificates/CSWA-Electrical.png",
+  },
+  {
+    name: "MasterCAM Milling 1 Training | Belajar MasterCAM",
+    issuer: "MasterCAM",
+    period: "Issued Mar 2023",
+    imageUrl: "/certificates/BelajarMasterCAM.png",
+  },
+  {
+    name: "ATMICUP 2025 Ticketing Certificate | IT Team Member",
+    issuer: "ATMI Surakarta",
+    period: "Issued Feb 2025",
+    credentialId: "186/1/ATMICUP",
+    imageUrl: "/certificates/IT-TicketingCertificate.png",
   },
 ];
 
@@ -52,10 +68,10 @@ export default function AboutPage() {
             className="h-44 w-44 rounded-full border-4 border-zinc-200 object-cover shadow-xl dark:border-zinc-700"
           />
         </div>
-        <h1 className="font-display mt-8 text-4xl font-bold tracking-tight text-zinc-950 dark:text-zinc-50">
+        <h1 className="animate-text-shimmer font-display mt-8 text-4xl font-bold tracking-tight text-zinc-950 dark:text-zinc-50">
           Yogatama Radik Hanindyaputra
         </h1>
-        <p className="font-display mt-2 text-lg text-zinc-600 dark:text-zinc-400">
+        <p className="animate-text-glow font-display mt-2 text-lg text-zinc-600 dark:text-zinc-400">
           Mechatronics Engineering Student
         </p>
         <p className="font-display text-sm text-zinc-500 dark:text-zinc-500">
@@ -101,6 +117,10 @@ export default function AboutPage() {
         ideas into practical projects!
       </p>
 
+      <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+        Here are some of the certifications I&apos;ve earned.
+      </p>
+
       <h2 className="font-display mt-12 text-xl font-semibold text-zinc-950 dark:text-zinc-50">
         Certifications
       </h2>
@@ -117,18 +137,33 @@ export default function AboutPage() {
             <h3 className="mt-1 font-semibold text-zinc-950 dark:text-zinc-50">
               {cert.name}
             </h3>
-            <p className="text-sm text-zinc-600 dark:text-zinc-400">
-              {cert.issuer}
-            </p>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400">{cert.issuer}</p>
             {cert.credentialId && (
               <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-500">
                 Credential ID: {cert.credentialId}
               </p>
             )}
 
-            <div className="mt-4 flex h-40 items-center justify-center rounded-xl border border-dashed border-black/[.08] text-sm text-zinc-400 dark:border-white/[.145]">
-              Certificate image coming soon
-            </div>
+            {cert.imageUrl ? (
+              <a
+                href={cert.imageUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 block overflow-hidden rounded-xl border border-black/[.08] dark:border-white/[.145]"
+              >
+                <Image
+                  src={cert.imageUrl}
+                  alt={`${cert.name} certificate`}
+                  width={400}
+                  height={280}
+                  className="h-40 w-full object-cover transition-opacity hover:opacity-80"
+                />
+              </a>
+            ) : (
+              <div className="mt-4 flex h-40 items-center justify-center rounded-xl border border-dashed border-black/[.08] text-sm text-zinc-400 dark:border-white/[.145]">
+                Certificate image coming soon
+              </div>
+            )}
 
             {cert.verifyUrl && (
               <a
@@ -141,8 +176,9 @@ export default function AboutPage() {
               </a>
             )}
           </li>
-        ))}
-      </ul>
-    </article>
+        ))
+        }
+      </ul >
+    </article >
   );
 }

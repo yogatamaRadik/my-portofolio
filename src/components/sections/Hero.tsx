@@ -12,10 +12,10 @@ export function Hero() {
               <p className="text-sm font-medium uppercase tracking-widest text-zinc-500 dark:text-zinc-500">
                 Hello! I&apos;m
               </p>
-              <h1 className="animate-text-glow font-display text-4xl font-bold tracking-tight text-zinc-950 dark:text-zinc-50 sm:text-5xl">
+              <h1 className="animate-text-shimmer font-display text-4xl font-bold tracking-tight text-zinc-950 dark:text-zinc-50 sm:text-5xl">
                 Yogatama Radik
               </h1>
-              <p className="max-w-md text-lg text-zinc-600 dark:text-zinc-400">
+              <p className="animate-text-glow max-w-md text-lg text-zinc-600 dark:text-zinc-400">
                 Mechatronics Engineering Student
               </p>
               <div className="flex gap-4 pt-2">
