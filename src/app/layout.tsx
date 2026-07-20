@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ScrollProgress } from "@/components/ui/ScrollProgress";
@@ -79,6 +80,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1 pt-24">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
