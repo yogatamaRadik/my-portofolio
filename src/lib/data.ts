@@ -46,8 +46,9 @@ export type ExperienceItem = {
   organization: string;
   period: string;
   summary: string;
-  fullDescription: string;
+  fullDescription?: string;
   highlights: string[];
+  images?: string[];
 };
 
 export const EXPERIENCE: ExperienceItem[] = [
@@ -58,13 +59,19 @@ export const EXPERIENCE: ExperienceItem[] = [
     period: "2024–2025",
     summary:
       "Performed electrical wiring installation, troubleshooting, and revisions for Infant Warmer medical devices.",
-    fullDescription:
-      "Performed electrical wiring installation, troubleshooting, and wiring revisions for Infant Warmer medical devices based on technical specifications. Conducted functional testing and temperature monitoring at 10-minute intervals to verify system stability, heating performance, and operational safety.",
+    fullDescription: `An Infant Warmer is a neonatal medical device designed to maintain a stable body temperature for newborn infants, particularly premature or low-birth-weight babies who are unable to regulate their body temperature effectively.
+PT Citra Vita Buana is an Indonesian medical device manufacturer specializing in the design, production, and quality assurance of healthcare equipment. The company is committed to developing reliable medical devices that comply with national and international quality standards.
+During my industrial internship at PT Citra Vita Buana, I was involved in the production and quality assurance process of Infant Warmer medical devices. My responsibilities included installing electrical wiring according to technical drawings, troubleshooting electrical issues, performing wiring revisions, and conducting functional testing to verify proper system operation. I also monitored temperature stability at 10-minute intervals and documented test results to ensure each unit complied with technical specifications, operational requirements, and quality standards before final inspection and delivery.`,
     highlights: [
       "Electrical wiring installation and troubleshooting",
       "Functional and temperature testing on medical equipment",
       "Verified compliance with technical specifications",
     ],
+    images: [
+      "/experience/infantwarmer1.jpg",
+      "/experience/infantwarmer2.jpg",
+      "/experience/infantwarmer3.jpg",
+    ]
   },
   {
     slug: "vmc-control-integration",
