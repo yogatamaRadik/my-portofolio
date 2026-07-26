@@ -32,7 +32,7 @@ export function About() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-zinc-950 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-zinc-800 dark:bg-white dark:text-zinc-950 dark:hover:bg-zinc-200"
               >
-                View Resume
+                View My CV
               </a>
             </div>
           </div>
