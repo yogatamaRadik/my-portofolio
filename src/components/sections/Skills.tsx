@@ -10,7 +10,7 @@ type SkillGroup = {
 const SKILLS: SkillGroup[] = [
   {
     category: "Programming",
-    items: ["PHP", "JavaScript", "HTML", "C", "C++", "C#"],
+    items: ["JavaScript", "HTML", "C", "C++", "C#"],
   },
   {
     category: "Control Systems",

@@ -84,7 +84,7 @@ export default async function ExperienceDetailPage({
       )
       }
 
-      <p className="whitespace-pre-line mt-8 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+      <p className="text-justify whitespace-pre-line mt-8 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
         {item.fullDescription}
       </p>
 

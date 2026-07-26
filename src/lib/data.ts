@@ -59,15 +59,18 @@ export const EXPERIENCE: ExperienceItem[] = [
     period: "2024–2025",
     summary:
       "Performed electrical wiring installation, troubleshooting, and revisions for Infant Warmer medical devices.",
-    fullDescription: `An Infant Warmer is a neonatal medical device designed to maintain a stable body temperature for newborn infants, particularly premature or low-birth-weight babies who are unable to regulate their body temperature effectively.
+    fullDescription: `PT Citra Vita Buana manufactures Infant Warmer medical devices designed to maintain a stable body temperature for newborn infants, particularly premature and low-birth-weight babies. As part of the production and quality assurance process, every unit must meet strict electrical, functional, and safety standards before being delivered for medical use.
 
-                      PT Citra Vita Buana is an Indonesian medical device manufacturer specializing in the design, production, and quality assurance of healthcare equipment. The company is committed to developing reliable medical devices that comply with national and international quality standards.
+                      During my industrial internship, I was assigned to support the production and quality assurance team by installing electrical wiring, troubleshooting wiring issues, performing wiring revisions, conducting functional testing, and verifying the temperature stability of Infant Warmer units according to technical specifications.
 
-                      During my industrial internship at PT Citra Vita Buana, I was involved in the production and quality assurance process of Infant Warmer medical devices. My responsibilities included installing electrical wiring according to technical drawings, troubleshooting electrical issues, performing wiring revisions, and conducting functional testing to verify proper system operation. I also monitored temperature stability at 10-minute intervals and documented test results to ensure each unit complied with technical specifications, operational requirements, and quality standards before final inspection and delivery.`,
+                      I installed electrical wiring based on engineering drawings and electrical schematics, verified wiring connections, and corrected electrical issues identified during assembly. I performed functional testing to ensure all electrical components operated correctly and monitored the heating system by recording temperature data at 10-minute intervals. In addition, I documented the testing results and verified that each unit complied with technical specifications and quality requirements before final inspection.
+                      
+                      The Infant Warmer units successfully passed functional verification and temperature stability testing, ensuring reliable operation and compliance with manufacturing quality standards. Through this project, I strengthened my practical skills in electrical wiring, troubleshooting, functional testing, technical documentation, and quality assurance within a medical device manufacturing environment.`,
     highlights: [
-      "Electrical wiring installation and troubleshooting",
-      "Functional and temperature testing on medical equipment",
-      "Verified compliance with technical specifications",
+      "Installed electrical wiring based on technical drawings and electrical schematics.",
+      "Performed electrical troubleshooting and wiring revisions during assembly.",
+      "Conducted functional and temperature stability testing on Infant Warmer units.",
+      "Documented test results and verified compliance with technical specifications and quality standards."
     ],
     images: [
       "/experience/infantwarmer1.jpg",
@@ -82,13 +85,19 @@ export const EXPERIENCE: ExperienceItem[] = [
     period: "2024–2025",
     summary:
       "Configured CNC machine parameters and integrated PLC control for VMC operation.",
-    fullDescription: `The ATMI Vertical Machining Center (VMC) is a CNC milling machine developed by Politeknik ATMI Surakarta as part of its commitment to advancing manufacturing technology, engineering education, and industrial automation. Designed as a learning and research platform, the machine integrates Siemens SINUMERIK 808D CNC control, servo drive systems, electrical control panels, and pneumatic actuators to simulate the operation of modern industrial CNC milling machines.
+    fullDescription: `The ATMI Vertical Machining Center (VMC) is a CNC milling machine developed by Politeknik ATMI Surakarta as an educational and research platform for advanced manufacturing and industrial automation. The machine integrates the Siemens SINUMERIK 808D CNC control system, PLC-based machine I/O, servo drive systems, electrical control panels, and pneumatic actuators to replicate the operation of modern industrial CNC milling machines. During the machine development process, the electrical control system, PLC logic, and pneumatic subsystems required integration and verification before commissioning.
     
-    During this project, I contributed to the electrical integration and commissioning of the ATMI Vertical Machining Center (VMC). My primary responsibility was developing the PLC I/O configuration for the Siemens SINUMERIK 808D CNC control system, beginning with the installation and integration of the machine's electrical control system. I implemented and verified I/O functions for the tool clamp and unclamp mechanism, CNC indicator lamps, emergency stop circuit, and other machine peripherals while ensuring consistency between electrical wiring diagrams and PLC logic. In addition, I assisted in assembling and commissioning the pneumatic system, including the installation of the air supply unit, enabling pneumatic operation for the tool clamping mechanism and air coolant system. I also reviewed and verified electrical wiring documentation to ensure proper implementation and reliable machine operation during system commissioning.`,
+    I was assigned to support the electrical integration and PLC commissioning of the ATMI VMC. My responsibilities included configuring PLC I/O functions, integrating the Siemens SINUMERIK 808D CNC control system, implementing electrical control functions, assembling the pneumatic system, and verifying that the electrical wiring matched the engineering drawings and machine control logic.
+    
+    I installed and integrated the Siemens SINUMERIK 808D control system with the machine's electrical panel and developed the PLC I/O configuration for machine peripherals, including the tool clamp and unclamp mechanism, CNC indicator lamps, and emergency stop circuit. I verified the consistency between electrical wiring diagrams and PLC logic to ensure correct machine operation. In addition, I assembled and commissioned the pneumatic system by installing the air supply unit, enabling pneumatic operation for the tool clamping mechanism and air coolant system. Throughout the project, I also reviewed wiring documentation and assisted in system verification during machine commissioning.
+    
+    The integrated electrical control, PLC I/O, and pneumatic systems operated successfully during machine commissioning, enabling reliable operation of the tool clamping mechanism, indicator systems, emergency functions, and pneumatic air coolant. This project strengthened my practical experience in CNC control integration, Siemens PLC I/O development, electrical system commissioning, pneumatic system integration, and technical documentation within an industrial automation environment.`,
     highlights: [
-      "Siemens 808D controller configuration",
-      "PLC I/O addressing and signal allocation",
-      "Machine automation and safety function integration",
+      "Integrated the Siemens SINUMERIK 808D CNC control system with the machine's control panel.",
+      "Developed and verified PLC I/O functions for machine peripherals",
+      "Installed the pneumatic system for tool clamp/unclamp and air coolant operation.",
+      "Verified electrical wiring implementation against engineering drawings and PLC logic.",
+      "Supported electrical system commissioning and functional verification of the CNC machine."
     ],
     images: [
       "/experience/vmc1.jpeg",

@@ -86,7 +86,7 @@ export default function AboutPage() {
           About Me
         </h2>
 
-        <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+        <p className="text-justify mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
           Hello! My name is Yogatama Radik Hanindyaputra, you can call me
           Radik. I'm a final-year Mechatronics Engineering student at
           Politeknik ATMI Surakarta, with hands-on experience across CNC
@@ -95,30 +95,29 @@ export default function AboutPage() {
 
       </section>
 
-      <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+      <p className="text-justify text-justify mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
         Outside of engineering, I enjoy spending my free time reading,
         watching movies, and exploring new stories. I regularly read personal
         growth books to broaden my perspective and improve myself, while
         novels allow me to appreciate different styles of storytelling.
         I&apos;m particularly interested in horror, thriller, and action
         films, as well as mystery and puzzle-driven plots that challenge my
-        curiosity and analytical thinking. I also enjoy watching anime for
-        its creativity and unique storytelling. In my free time, I like
+        curiosity and analytical thinking. In my free time, I like
         playing billiards and bowling. More recently, strength training at
         the gym has become an important part of my routine, helping me
         develop discipline, maintain a healthy lifestyle, and stay mentally
         focused.
       </p>
 
-      <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+      <p className="text-justify mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
         I enjoy learning new technologies beyond my primary field of study.
         Recently, I&apos;ve been exploring modern web development with
-        Next.js and React by building this portfolio from scratch. I enjoy
+        Next.js and React by building this simple portfolio website from scratch. I enjoy
         the process of continuously learning, solving problems, and turning
         ideas into practical projects!
       </p>
 
-      <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+      <p className="text-justify mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
         Here are some of the certifications I&apos;ve earned.
       </p>
 

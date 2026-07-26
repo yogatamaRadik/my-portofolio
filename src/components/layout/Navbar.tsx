@@ -61,14 +61,14 @@ export function Navbar() {
   const linkClasses = (href: string) => {
     const isActive = activeSection === href;
     return `relative text-sm transition-colors after:absolute after:-bottom-1 after:left-0 after:h-px after:bg-zinc-950 after:transition-all after:duration-300 dark:after:bg-zinc-50 ${isActive
-        ? "font-semibold text-zinc-950 after:w-full dark:text-zinc-50"
-        : "text-zinc-600 after:w-0 hover:text-zinc-950 hover:after:w-full dark:text-zinc-400 dark:hover:text-zinc-50"
+      ? "font-semibold text-zinc-950 after:w-full dark:text-zinc-50"
+      : "text-zinc-600 after:w-0 hover:text-zinc-950 hover:after:w-full dark:text-zinc-400 dark:hover:text-zinc-50"
       }`;
   };
 
   return (
     <header
-      className={`fixed left-1/2 z-50 -translate-x-1/2 border-black/[.08] bg-white/80 backdrop-blur-md transition-all duration-300 dark:border-white/[.145] dark:bg-black/80 ${isScrolled
+      className={`fixed left-1/2 z-50 -translate-x-1/2 border-black/[.08] bg-white/80 backdrop-blur-md transition-[top,width,background-color] duration-300 dark:border-white/[.145] dark:bg-black/80 ${isScrolled
           ? `top-4 w-[calc(100%-2rem)] max-w-4xl border ${isMenuOpen ? "rounded-3xl" : "rounded-full"
           }`
           : "top-0 w-full max-w-none rounded-none border-b border-transparent bg-transparent backdrop-blur-none"

@@ -17,7 +17,7 @@ const EDUCATION: EducationItem[] = [
     degree: "Polytechnic University — Diploma in Applied Mechatronics (D3)",
     period: "2023–Present",
     detail:
-      "• GPA: 3.82 (2024–2025, 4th Semester) \n Organizations : \n • ATMICUP 2025 Commitee (2024-2025) \n • HMPS Mechatronics Treasurer (2024-2025)",
+      "• GPA: 3.82 (2024–2025, 3rd & 4th Semester) \n Organizations : \n • ATMICUP 2025 Commitee (2024-2025) \n • HMPS Mechatronics Treasurer (2024-2025)",
     logo: "/logos/atmi.png",
   },
   {
