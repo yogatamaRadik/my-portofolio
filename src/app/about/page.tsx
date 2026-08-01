@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { SOCIAL_LINKS } from "@/lib/data";
+import { ImageLightbox } from "@/components/ui/ImageLightbox";
 
 type Certification = {
   name: string;
@@ -117,6 +118,15 @@ export default function AboutPage() {
         ideas into practical projects!
       </p>
 
+      <a
+        href="/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-6 inline-flex items-center gap-2 rounded-full bg-zinc-950 px-5 py-2.5 text-sm font-medium text-white transition-all hover:scale-105 hover:bg-zinc-800 dark:bg-white dark:text-zinc-950 dark:hover:bg-zinc-200"
+      >
+        View My CV
+      </a>
+
       <p className="text-justify mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
         Here are some of the certifications I&apos;ve earned.
       </p>
@@ -145,20 +155,10 @@ export default function AboutPage() {
             )}
 
             {cert.imageUrl ? (
-              <a
-                href={cert.imageUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 block overflow-hidden rounded-xl border border-black/[.08] dark:border-white/[.145]"
-              >
-                <Image
-                  src={cert.imageUrl}
-                  alt={`${cert.name} certificate`}
-                  width={400}
-                  height={280}
-                  className="h-40 w-full object-cover transition-opacity hover:opacity-80"
-                />
-              </a>
+              <div className="mt-4">
+                <ImageLightbox src={cert.imageUrl} alt={`${cert.name} certificate`} />
+              </div>
+
             ) : (
               <div className="mt-4 flex h-40 items-center justify-center rounded-xl border border-dashed border-black/[.08] text-sm text-zinc-400 dark:border-white/[.145]">
                 Certificate image coming soon

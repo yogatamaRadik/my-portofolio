@@ -14,7 +14,7 @@ const SKILLS: SkillGroup[] = [
   },
   {
     category: "Control Systems",
-    items: ["PLC", "SCADA", "Arduino"],
+    items: ["PLC", "SCADA", "Arduino", "CNC", "Raspberry Pi"],
   },
   {
     category: "Tools",

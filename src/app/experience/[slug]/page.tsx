@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { EXPERIENCE } from "@/lib/data";
 import type { Metadata } from "next";
 import Image from "next/image";
+import { ImageLightbox } from "@/components/ui/ImageLightbox";
 
 export async function generateMetadata({
   params,
@@ -60,29 +61,18 @@ export default async function ExperienceDetailPage({
       {item.images && item.images.length > 0 ? (
         <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
           {item.images.map((src, index) => (
-            <a
+            <ImageLightbox
               key={src}
-              href={src}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block overflow-hidden rounded-2xl border border-black/[.08] dark:border-white/[.145]"
-            >
-              <Image
-                src={src}
-                alt={`${item.role} photo ${index + 1}`}
-                width={400}
-                height={300}
-                className="h-48 w-full object-cover transition-opacity hover:opacity-80"
-              />
-            </a>
+              src={src}
+              alt={`${item.role} photo ${index + 1}`}
+            />
           ))}
         </div>
       ) : (
         <div className="mt-8 flex h-64 items-center justify-center rounded-2xl border border-dashed border-black/[.08] text-sm text-zinc-400 dark:border-white/[.145]">
           Photo coming soon
         </div>
-      )
-      }
+      )}
 
       <p className="text-justify whitespace-pre-line mt-8 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
         {item.fullDescription}

@@ -135,7 +135,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     period: "2024–2025",
     summary:
       "Managed financial reporting for student organization activities and events.",
-    fullDescription:` HMPS Mechatronics (Himpunan Mahasiswa Program Studi Mechatronics) is the official student organization of the Mechatronics Engineering program at Politeknik ATMI Surakarta. The organization serves as a platform for academic, professional, and extracurricular development by organizing seminars, workshops, competitions, social activities, and student events. HMPS encourages leadership, teamwork, and organizational skills while fostering collaboration among students and supporting their personal and professional growth.
+    fullDescription: ` HMPS Mechatronics (Himpunan Mahasiswa Program Studi Mechatronics) is the official student organization of the Mechatronics Engineering program at Politeknik ATMI Surakarta. The organization serves as a platform for academic, professional, and extracurricular development by organizing seminars, workshops, competitions, social activities, and student events. HMPS encourages leadership, teamwork, and organizational skills while fostering collaboration among students and supporting their personal and professional growth.
     
     As the Treasurer of HMPS Mechatronics, I was responsible for managing the organization's financial administration and supporting the execution of various student activities and events. My role included recording income and expenditures, preparing financial reports, monitoring budget allocations, maintaining transaction documentation, and ensuring that all financial activities were accurately recorded and transparently managed in accordance with the organization's procedures.
     `,
@@ -143,7 +143,7 @@ export const EXPERIENCE: ExperienceItem[] = [
       "Financial reporting and budget tracking",
       "Transparency in student organization finances",
     ],
-    images:[
+    images: [
       "/experience/hmps1.jpeg",
       "/experience/hmps2.jpeg",
       "/experience/hmps3.jpeg"
@@ -159,37 +159,62 @@ export type ProjectItem = {
   fullDescription: string;
   tech: string[];
   highlights: string[];
+  images?: string[];
 };
 
 export const PROJECTS: ProjectItem[] = [
   {
     slug: "cnc-engraving-capstone",
-    title: "CNC Engraving Machine with GSK980TDa Control System",
+    title: "CNC Machine with GSK980TDa Control System",
     period: "2025–2026 · Final Year Capstone Project",
     summary:
-      "Designed and built a 2-axis CNC engraving machine with a pneumatic Z-axis.",
+      "Designed and built a 2-axis CNC machine with a pneumatic Z-axis.",
     fullDescription:
-      "Designed and built a 2-axis CNC engraving machine with an additional pneumatic Z-axis using a double-acting cylinder. Developed the mechanical, electrical, and pneumatic systems, including assembly, wiring, panel integration, and component installation. Configured the GSK980TDa controller with Mitsubishi MR-J3 servo drives and HF-KP23 servo motors for precise motion control.",
-    tech: ["GSK980TDa", "Servo Motion Control", "Pneumatics", "CNC Machining"],
+      ` PT ATMI Surakarta needed a way to produce PCB (Printed Circuit Board) traces in-house but lacked a dedicated CNC machine for the job. The company already owned a GSK980TDa CNC control system, originally designed for 2-axis lathe machines, but had no machine built around it for this purpose.
+    
+    As the final-year capstone project, I was tasked with designing and building a 2-axis CNC engraving machine using the existing GSK980TDa controller, adapting it to control an additional pneumatic Z-axis, without procuring any new control hardware.
+
+    I mapped the controller's native Z-axis to function as a mechanical Y-axis, enabling true two-axis linear interpolation for X-Y motion. I integrated a pneumatic double-acting cylinder, controlled through the GSK980TDa's internal PLC via a 5/3 double-solenoid valve, to handle the vertical (marking) motion instead of a third CNC-controlled axis. I calculated and configured the Electronic Gear Ratio between the GSK980TDa and the Mitsubishi MR-J3-20A servo drivers to ensure the system translated G-code commands into precise physical movement, then validated the setup through repeated point-to-point positioning tests.
+
+    The final system achieved a 1:1 correspondence between commanded and actual linear displacement (e.g., a 1 mm command produced exactly 1 mm of physical movement), with a measured repeatability of 0 mm across repeated trials on both the X and Y axes. The machine successfully executed multi-axis interpolated paths, including diagonal and combined X-Y motion, within a ±0.1 mm tolerance, validating the design as a viable foundation for future PCB-machining development at the company.`,
+
+    tech: ["System Control", "GSK980Tda", "Servo Motion Control", "Pneumatics", "CNC Machining", "Teamworks", "Parametering"],
     highlights: [
       "2-axis CNC motion with pneumatic Z-axis",
       "Full mechanical, electrical, and pneumatic system design",
       "GSK980TDa controller with Mitsubishi servo integration",
     ],
+    images: [
+      "/projects/tugasakhir1.jpeg",
+      "/projects/tugasakhir2.jpeg",
+      "/projects/tugasakhir3.jpeg",
+
+    ]
   },
   {
     slug: "safe-coin-treasury",
     title: "Safe Coin Treasury and Investment System",
-    period: "2024–2025 · Project Protocol",
+    period: "2024–2025 · Protocol Project",
     summary:
       "A coin-based asset lending management system built with Arduino and RFID.",
-    fullDescription:
-      "Designed a coin-based asset lending management system for students, requiring physical coin exchange as collateral for borrowed equipment. Integrated multiple hardware components including an Arduino MEGA 2560, RFID reader, HMI, RTC module, and DHT22 sensor, with a custom 3D-printed PLA enclosure. Developed embedded control logic for user authentication, transaction recording, and environmental monitoring.",
-    tech: ["Arduino", "RFID", "Embedded Systems", "3D Printing"],
+    fullDescription: ` The Safe Coin Treasury & Investment project was developed to address the inefficiencies of the manual borrowing system used in the Microcontroller Laboratory. The conventional process relied on handwritten records, making it difficult to track borrowed items, verify borrowers, and maintain accurate inventory records. To improve security, accountability, and operational efficiency, our team developed a smart storage system integrating an Arduino Mega 2560, Nextion HMI, RFID authentication, an electronic lock, SD card logging, and Bluetooth communication.
+    
+    As a member of the development team, I was responsible for designing and implementing the embedded software that controlled the user interface and authentication workflow. My responsibilities included developing the Nextion HMI interface, programming the communication between the HMI and Arduino Mega 2560, implementing dual authentication using password and RFID, integrating peripheral devices such as the electronic lock, OLED display, buzzer, RTC, SD card module, and Bluetooth module, and developing the borrowing and returning workflow with automatic activity logging.
+
+    Through the integration of hardware and software components, the system successfully automated user authentication, borrowing, and return management while securely recording transaction data and providing real-time user feedback through the HMI. The completed prototype demonstrated a practical, secure, and efficient alternative to the previous manual process, improving data accuracy, reducing administrative errors, and enhancing the overall management of laboratory equipment.`,
+
+    tech: ["Arduino", "RFID", "Embedded Systems", "3D Printing", "Nextion HMI"],
     highlights: [
-      "Arduino MEGA 2560 with RFID-based authentication",
-      "Custom 3D-printed enclosure",
-      "Real-time environmental monitoring with DHT22",
+      "Developed the Nextion HMI interface and embedded control logic.",
+      "Implemented dual authentication using password and RFID.",
+      "Integrated Arduino Mega 2560 with OLED, buzzer, RTC, SD card, Bluetooth, and electronic lock modules.",
+      "Developed automated borrowing and return workflows with digital activity logging.",
+      "Performed hardware integration, functional testing, and system validation before deployment.",
     ],
+    images: [
+      "/projects/Safecoin1.jpg",
+      "/projects/Safecoin2.jpg",
+      "/projects/Safecoin3.jpg",
+    ]
   },
 ];

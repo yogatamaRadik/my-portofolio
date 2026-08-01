@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PROJECTS } from "@/lib/data";
+import { ImageLightbox } from "@/components/ui/ImageLightbox";
 
 export function generateStaticParams() {
   return PROJECTS.map((item) => ({ slug: item.slug }));
@@ -19,7 +20,7 @@ export default async function ProjectDetailPage({
   }
 
   return (
-    <article className="mx-auto max-w-3xl px-6 py-20">
+    <article className="font-display mx-auto max-w-3xl px-6 py-20">
       <Link
         href="/#projects"
         className="text-sm font-medium text-zinc-500 hover:text-zinc-950 dark:hover:text-zinc-50"
@@ -45,11 +46,23 @@ export default async function ProjectDetailPage({
         ))}
       </div>
 
-      <div className="mt-8 flex h-64 items-center justify-center rounded-2xl border border-dashed border-black/[.08] text-sm text-zinc-400 dark:border-white/[.145]">
-        Photo coming soon
-      </div>
+      {project.images && project.images.length > 0 ? (
+        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
+          {project.images.map((src, index) => (
+            <ImageLightbox
+              key={src}
+              src={src}
+              alt={`${project.title} photo ${index + 1}`}
+            />
+          ))}
+        </div>
+      ) : (
+        <div className="mt-8 flex h-64 items-center justify-center rounded-2xl border border-dashed border-black/[.08] text-sm text-zinc-400 dark:border-white/[.145]">
+          Photo coming soon
+        </div>
+      )}
 
-      <p className="mt-8 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+      <p className=" text-justify mt-8 text-lg whitespace-pre-line leading-8 text-zinc-600 dark:text-zinc-400">
         {project.fullDescription}
       </p>
 
