@@ -2,7 +2,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { EXPERIENCE } from "@/lib/data";
 import type { Metadata } from "next";
-import Image from "next/image";
 import { ImageLightbox } from "@/components/ui/ImageLightbox";
 
 export async function generateMetadata({
