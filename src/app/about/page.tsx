@@ -88,10 +88,12 @@ export default function AboutPage() {
         </h2>
 
         <p className="text-justify mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-          Hello! My name is Yogatama Radik Hanindyaputra, you can call me
-          Radik. I'm a final-year Mechatronics Engineering student at
+          Hello Everyone! My name is Yogatama Radik Hanindyaputra, you can call me
+          Radik! I&apos;m a graduate of the D3 Mechatronics Engineering program at
           Politeknik ATMI Surakarta, with hands-on experience across CNC
-          machining, industrial automation, and PLC programming.
+          machining, industrial automation, and PLC programming!
+          Currently, I&apos;m working on my studies to pursue Bachelor of Applied Science (D4) of Mechatronics 
+          Engineering.
         </p>
 
       </section>

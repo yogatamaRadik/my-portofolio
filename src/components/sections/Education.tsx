@@ -4,6 +4,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Container } from "@/components/ui/Container";
 
 type EducationItem = {
+  id: string;
   institution: string;
   degree: string;
   period: string;
@@ -13,14 +14,25 @@ type EducationItem = {
 
 const EDUCATION: EducationItem[] = [
   {
+    id: "atmi-d4",
+    institution: "Politeknik ATMI Surakarta",
+    degree: "Polytechnic University — Bachelor of Applied Science (D4)",
+    period: "2026-2027",
+    detail:
+      "Internship : \n • PT. Formulatrix Indonesia (Sep 2026 - Jan 2027)", 
+      logo: "/logos/atmi.png",
+  },
+  {
+    id: "atmi-d3",
     institution: "Politeknik ATMI Surakarta",
     degree: "Polytechnic University — Diploma in Applied Mechatronics (D3)",
-    period: "2023–Present",
+    period: "2023–2026",
     detail:
-      "• GPA: 3.82 (2024–2025, 3rd & 4th Semester) \n Organizations : \n • ATMICUP 2025 Commitee (2024-2025) \n • HMPS Mechatronics Treasurer (2024-2025)",
+      "• GPA: 3.64 \n Organizations : \n • ATMICUP 2025 Commitee (2024-2025) \n • HMPS Mechatronics Treasurer (2024-2025)",
     logo: "/logos/atmi.png",
   },
   {
+    id: "smk-mikael",
     institution: "SMK Katolik St. Mikael Surakarta",
     degree: "Vocational High School — Mechanical Engineering",
     period: "2020–2023",
