@@ -20,7 +20,7 @@ const EDUCATION: EducationItem[] = [
     period: "2026-2027",
     detail:
       "Internship : \n • PT. Formulatrix Indonesia (Sep 2026 - Jan 2027)", 
-      logo: "/logos/atmi.png",
+    logo: "/logos/atmi.png",
   },
   {
     id: "atmi-d3",
