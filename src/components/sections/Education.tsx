@@ -16,7 +16,7 @@ const EDUCATION: EducationItem[] = [
   {
     id: "atmi-d4",
     institution: "Politeknik ATMI Surakarta",
-    degree: "Polytechnic University — Bachelor of Applied Science (D4)",
+    degree: "Polytechnic University — Bachelor of Applied Science in Mechatronics Engineering (D4)",
     period: "2026-2027",
     detail:
       "Internship : \n • PT. Formulatrix Indonesia (Sep 2026 - Jan 2027)", 
@@ -25,7 +25,7 @@ const EDUCATION: EducationItem[] = [
   {
     id: "atmi-d3",
     institution: "Politeknik ATMI Surakarta",
-    degree: "Polytechnic University — Diploma in Applied Mechatronics (D3)",
+    degree: "Polytechnic University — Diploma in Applied Mechatronics Engineering (D3)",
     period: "2023–2026",
     detail:
       "• GPA: 3.64 \n Organizations : \n • ATMICUP 2025 Commitee (2024-2025) \n • HMPS Mechatronics Treasurer (2024-2025)",

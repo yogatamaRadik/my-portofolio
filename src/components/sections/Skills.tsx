@@ -10,11 +10,23 @@ type SkillGroup = {
 const SKILLS: SkillGroup[] = [
   {
     category: "Programming",
-    items: ["JavaScript", "HTML", "C", "C++", "C#"],
+    items: [
+      "JavaScript", 
+      "HTML", 
+      "C", 
+      "C++", 
+      "C#"
+    ],
   },
   {
     category: "Control Systems",
-    items: ["PLC", "SCADA", "Arduino", "CNC", "Raspberry Pi"],
+    items: [
+      "PLC", 
+      "SCADA", 
+      "Arduino", 
+      "CNC", 
+      "Raspberry Pi"
+    ],
   },
   {
     category: "Tools",
@@ -27,11 +39,18 @@ const SKILLS: SkillGroup[] = [
       "CX-Programmer",
       "EcoStruxure",
       "Vijeo Designer",
+      "Google Collab"
     ],
   },
   {
     category: "Design",
-    items: ["SolidWorks 3D", "SolidWorks Electrical", "AutoCAD", "Autodesk Fusion"],
+    items: [
+      "SolidWorks 3D", 
+      "SolidWorks Electrical", 
+      "AutoCAD", 
+      "Autodesk Fusion",
+      "On-Shape"
+    ],
   },
   {
     category: "Machining",

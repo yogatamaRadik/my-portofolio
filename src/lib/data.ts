@@ -53,6 +53,26 @@ export type ExperienceItem = {
 
 export const EXPERIENCE: ExperienceItem[] = [
   {
+    slug: "internship-pt-formulatrix-process-engineering",
+    role: "Process Engineering Intern",
+    organization: "PT. Formulatrix Indonesia - Internship",
+    period: "Sep 2026-Jan 2027 (On Going)",
+    summary: "Supported manufacturing and engineering processes for laboratory automation equipment, with hands-on involvement in assembly, testing, troubleshooting, and process improvement.",
+    fullDescription: `During my internship at FORMULATRIX, I was assigned to the MANTIS project as a Process Engineer Intern. My current responsibility focuses on redrawing JIG components used in the MANTIS V4 assembly process.
+    
+    Right now, my responsibilities involved supporting production activities, understanding mechanical assemblies, performing functional checks, troubleshooting issues found during the process, and assisting in identifying improvements to ensure consistent product quality and reliability.
+    
+    The work involves studying existing JIG parts, understanding their function and assembly requirements, and recreating their technical drawings and 3D models based on the available references. Through this process, I work with mechanical design principles, dimensional requirements, and manufacturing considerations to ensure the redesigned parts can be properly understood and reproduced.`,
+    highlights: [
+      "Assigned to the MANTIS project as a Process Engineer Intern",
+      "Redrawing JIG components for MANTIS V4",
+      "Recreated mechanical parts based on existing references and physical components"
+    ],
+    images: [
+
+    ]
+  },
+  {
     slug: "infant-warmer-wiring",
     role: "Mechatronics Industrial Practice",
     organization: "PT Citra Vita Buana — Infant Warmer Testing and Wiring",
@@ -135,7 +155,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     period: "2024–2025",
     summary:
       "Managed financial reporting for student organization activities and events.",
-    fullDescription: ` HMPS Mechatronics (Himpunan Mahasiswa Program Studi Mechatronics) is the official student organization of the Mechatronics Engineering program at Politeknik ATMI Surakarta. The organization serves as a platform for academic, professional, and extracurricular development by organizing seminars, workshops, competitions, social activities, and student events. HMPS encourages leadership, teamwork, and organizational skills while fostering collaboration among students and supporting their personal and professional growth.
+    fullDescription: `HMPS Mechatronics (Himpunan Mahasiswa Program Studi Mechatronics) is the official student organization of the Mechatronics Engineering program at Politeknik ATMI Surakarta. The organization serves as a platform for academic, professional, and extracurricular development by organizing seminars, workshops, competitions, social activities, and student events. HMPS encourages leadership, teamwork, and organizational skills while fostering collaboration among students and supporting their personal and professional growth.
     
     As the Treasurer of HMPS Mechatronics, I was responsible for managing the organization's financial administration and supporting the execution of various student activities and events. My role included recording income and expenditures, preparing financial reports, monitoring budget allocations, maintaining transaction documentation, and ensuring that all financial activities were accurately recorded and transparently managed in accordance with the organization's procedures.
     `,
@@ -147,6 +167,30 @@ export const EXPERIENCE: ExperienceItem[] = [
       "/experience/hmps1.jpeg",
       "/experience/hmps2.jpeg",
       "/experience/hmps3.jpeg"
+    ]
+  },
+  {
+    slug: "smk-mikael-internship-unit-production",
+    role: "Student Intership - CNC (VMC) Operator",
+    organization: "SMK Mikael Surakarta - Internship",
+    period: "Sep 2022 (1 Month)",
+    summary: 
+    "Completed a one-month industrial internship in the Unit Production of SMK Katolik St. Mikael Surakarta, where I was directly involved in CNC milling manufacturing operations. Operated CNC Milling Neutron machines to manufacture production components.",
+    fullDescription: `During my internship in the Unit Production of SMK Katolik St. Mikael Surakarta, I was directly involved in CNC milling manufacturing operations. I operated CNC milling machines to manufacture production components based on technical drawings and machining requirements.
+
+    The experience provided hands-on exposure to the production workflow, including machine setup, tool selection, machining operations, and dimensional inspection. It also strengthened my understanding of CNC machining processes and how technical drawings are translated into physical components.`,
+    highlights: 
+    [
+      "Operated CNC milling machines for production machining",
+      "Manufactured mechanical components based on technical drawings",
+      "Gained hands-on experience in a production environment",
+      "Performed basic machine setup and machining operations"
+    ],
+    images: 
+    [
+      "/experience/up1.jpg",
+      "/experience/up2.jpg",
+      "/experience/up3.jpg"
     ]
   },
 ];
