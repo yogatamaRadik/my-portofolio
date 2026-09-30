@@ -36,7 +36,7 @@ const EDUCATION: EducationItem[] = [
     institution: "SMK Katolik St. Mikael Surakarta",
     degree: "Vocational High School — Mechanical Engineering",
     period: "2020–2023",
-    detail: "• Overall Grade: 86.32",
+    detail: "• Overall Grade: 86.32 \n Awardee : \n • 2023 Michael Commitment Award Recipient",
     logo: "/logos/mikael.png",
   },
 ];
