@@ -171,7 +171,7 @@ export const EXPERIENCE: ExperienceItem[] = [
   },
   {
     slug: "smk-mikael-internship-unit-production",
-    role: "Student Intership - CNC (VMC) Operator",
+    role: "Student Internship - CNC (VMC) Operator",
     organization: "SMK Mikael Surakarta - Internship",
     period: "Sep 2022 (1 Month)",
     summary: 
