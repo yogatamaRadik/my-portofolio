@@ -57,10 +57,10 @@ export const EXPERIENCE: ExperienceItem[] = [
     role: "Process Engineering Intern",
     organization: "PT. Formulatrix Indonesia - Internship",
     period: "Sep 2026-Jan 2027 (On Going)",
-    summary: "Supported manufacturing and engineering processes for laboratory automation equipment, with hands-on involvement in assembly, testing, troubleshooting, and process improvement.",
+    summary: "Supported manufacturing and engineering processes for laboratory automation equipment, with hands-on involvement in assembly, and process improvement.",
     fullDescription: `During my internship at FORMULATRIX, I was assigned to the MANTIS project as a Process Engineer Intern. My current responsibility focuses on redrawing JIG components used in the MANTIS V4 assembly process.
     
-    Right now, my responsibilities involved supporting production activities, understanding mechanical assemblies, performing functional checks, troubleshooting issues found during the process, and assisting in identifying improvements to ensure consistent product quality and reliability.
+    Right now, my responsibilities involved supporting production activities, understanding mechanical assemblies, and assisting in identifying improvements to ensure consistent product quality and reliability.
     
     The work involves studying existing JIG parts, understanding their function and assembly requirements, and recreating their technical drawings and 3D models based on the available references. Through this process, I work with mechanical design principles, dimensional requirements, and manufacturing considerations to ensure the redesigned parts can be properly understood and reproduced.`,
     highlights: [

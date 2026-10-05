@@ -12,7 +12,7 @@ export function About() {
             <SectionHeading eyebrow="01" title="About" />
             <p className="mt-6 max-w-2xl text-lg leading-7 text-zinc-600 dark:text-zinc-400">
               I&apos;m a Mechatronics Engineer graduate from Politeknik ATMI Surakarta, with hands-on experience across CNC Machining,
-              industrial automation, and PLC Programming. I&apos;m currently continuing my studies at ATMI toward a D4 degree, and joining
+              Industrial automation, Microcontroller, and PLC Programming. I&apos;m currently continuing my studies at ATMI towards a D4 degree, and joining
               PT. Formulatrix Indonesia as a Process Engineering Intern. Alongside my engineering background, I&apos;m expanding into modern software
               development, building this very website as a part of that journey!
             </p>
