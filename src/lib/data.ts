@@ -74,12 +74,12 @@ export const EXPERIENCE: ExperienceItem[] = [
   },
   {
     slug: "infant-warmer-wiring",
-    role: "Mechatronics Industrial Practice",
-    organization: "PT Citra Vita Buana — Infant Warmer Testing and Wiring",
+    role: "Infant Warmer Testing and Wiring",
+    organization: "PT. Citra Vita Buana - Mechatronics Industrial Practice",
     period: "2024–2025",
     summary:
       "Performed electrical wiring installation, troubleshooting, and revisions for Infant Warmer medical devices.",
-    fullDescription: `PT Citra Vita Buana manufactures Infant Warmer medical devices designed to maintain a stable body temperature for newborn infants, particularly premature and low-birth-weight babies. As part of the production and quality assurance process, every unit must meet strict electrical, functional, and safety standards before being delivered for medical use.
+    fullDescription: `PT. Citra Vita Buana manufactures Infant Warmer medical devices designed to maintain a stable body temperature for newborn infants, particularly premature and low-birth-weight babies. As part of the production and quality assurance process, every unit must meet strict electrical, functional, and safety standards before being delivered for medical use.
 
                       During my industrial internship, I was assigned to support the production and quality assurance team by installing electrical wiring, troubleshooting wiring issues, performing wiring revisions, conducting functional testing, and verifying the temperature stability of Infant Warmer units according to technical specifications.
 
@@ -100,8 +100,8 @@ export const EXPERIENCE: ExperienceItem[] = [
   },
   {
     slug: "vmc-control-integration",
-    role: "Mechatronics Industrial Practice",
-    organization: "Vertical Machining Center (VMC) Control System Integration",
+    role: "Vertical Machining Center (VMC) Control System Integration",
+    organization: "PT. ATMI - Mechatronics Industrial Practice",
     period: "2024–2025",
     summary:
       "Configured CNC machine parameters and integrated PLC control for VMC operation.",
@@ -129,7 +129,7 @@ export const EXPERIENCE: ExperienceItem[] = [
   {
     slug: "atmicup-it-team",
     role: "IT Team Member",
-    organization: "ATMICUP 2025 Ticketing",
+    organization: "Politeknik ATMI - ATMICUP 2025 Ticketing",
     period: "2024–2025",
     summary:
       "Coordinated ticket distribution monitoring and resolved technical issues for a campus event.",
@@ -151,7 +151,7 @@ export const EXPERIENCE: ExperienceItem[] = [
   {
     slug: "hmps-treasurer",
     role: "Treasurer",
-    organization: "HMPS Mechatronics, Politeknik ATMI Surakarta",
+    organization: "Politeknik ATMI - HMPS Mechatronics",
     period: "2024–2025",
     summary:
       "Managed financial reporting for student organization activities and events.",
