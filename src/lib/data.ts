@@ -56,7 +56,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     slug: "internship-pt-formulatrix-process-engineering",
     role: "Process Engineering Intern",
     organization: "PT. Formulatrix Indonesia - Internship",
-    period: "Sep 2026-Jan 2027 (On Going)",
+    period: "Sep 2026–Jan 2027 (On Going)",
     summary: "Supported manufacturing and engineering processes for laboratory automation equipment, with hands-on involvement in assembly, and process improvement.",
     fullDescription: `During my internship at FORMULATRIX, I was assigned to the MANTIS project as a Process Engineer Intern. My current responsibility focuses on redrawing JIG components used in the MANTIS V4 assembly process.
     
@@ -173,7 +173,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     slug: "smk-mikael-internship-unit-production",
     role: "Student Internship - CNC (VMC) Operator",
     organization: "SMK Mikael Surakarta - Internship",
-    period: "Sep 2022 (1 Month)",
+    period: "Sep 2022–Oct 2022",
     summary: 
     "Completed a one-month industrial internship in the Unit Production of SMK Katolik St. Mikael Surakarta, where I was directly involved in CNC milling manufacturing operations. Operated CNC Milling Neutron machines to manufacture production components.",
     fullDescription: `During my internship in the Unit Production of SMK Katolik St. Mikael Surakarta, I was directly involved in CNC milling manufacturing operations. I operated CNC milling machines to manufacture production components based on technical drawings and machining requirements.
