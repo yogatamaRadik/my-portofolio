@@ -5,12 +5,13 @@ import { motion } from "framer-motion";
 type FadeInProps = {
   children: React.ReactNode;
   delay?: number;
+  className?: string;
 };
 
-export function FadeIn({ children, delay = 0 }: FadeInProps) {
+export function FadeIn({ children, delay = 0, className = "" }: FadeInProps) {
   return (
     <motion.div
-      className="w-full"
+      className= {'w-full ${className}'}
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-80px" }}

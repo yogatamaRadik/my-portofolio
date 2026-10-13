@@ -67,12 +67,12 @@ const SKILLS: SkillGroup[] = [
 export function Skills() {
   return (
     <section id="skills" className="border-t border-black/[.08] dark:border-white/[.250]">
-      <FadeIn>
         <Container size="narrow" className="font-display py-28">
           <SectionHeading eyebrow="04" title="Skills" />
 
           <div className="mt-10 space-y-8">
-            {SKILLS.map((group) => (
+            {SKILLS.map((group, index) => (
+            <FadeIn key={'${group.category} ${group.items}'} delay={index * 0.1} className="h-full">
               <div key={group.category}>
                 <h3 className="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-500">
                   {group.category}
@@ -88,10 +88,10 @@ export function Skills() {
                   ))}
                 </div>
               </div>
+            </FadeIn>
             ))}
           </div>
         </Container>
-      </FadeIn>
     </section>
   );
 }

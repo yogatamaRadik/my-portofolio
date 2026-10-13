@@ -6,24 +6,28 @@ import { Container } from "@/components/ui/Container";
 export function About() {
   return (
     <section id="about" className="border-t border-black/[.10] bg-zinc-50 dark:border-white/[.250] dark:bg-zinc-900/40">
-      <FadeIn>
         <Container className="py-28">
           <div className="font-display mx-auto max-w-3xl px-6 py-20">
             <SectionHeading eyebrow="01" title="About" />
+            <FadeIn>
             <p className="mt-6 max-w-2xl text-lg leading-7 text-zinc-600 dark:text-zinc-400">
               I&apos;m a Mechatronics Engineer graduate from Politeknik ATMI Surakarta, with hands-on experience across CNC Machining,
               Industrial automation, Microcontroller, and PLC Programming. I&apos;m currently continuing my studies at ATMI towards a D4 degree, and joining
               PT. Formulatrix Indonesia as a Process Engineering Intern. Alongside my engineering background, I&apos;m expanding into modern software
               development, building this very website as a part of that journey!
             </p>
+            </FadeIn>
 
+            <FadeIn>
             <Link
               href="/about"
               className="mt-4 inline-block text-sm font-medium text-zinc-950 underline underline-offset-4 dark:text-zinc-50"
             >
               View more about me
             </Link>
+            </FadeIn>
 
+            <FadeIn>
             <div className="mt-8">
               <a
                 href="/resume.pdf"
@@ -34,9 +38,9 @@ export function About() {
                 View My CV
               </a>
             </div>
+            </FadeIn>
           </div>
         </Container>
-      </FadeIn>
     </section>
   );
 }

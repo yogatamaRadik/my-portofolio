@@ -7,12 +7,12 @@ import { Container } from "@/components/ui/Container";
 export function Experience() {
   return (
     <section id="experience" className="border-t border-black/[.08] dark:border-white/[.250]">
-      <FadeIn>
         <Container size="narrow" className="font-display py-20">
           <SectionHeading eyebrow="02" title="Experiences" />
 
           <ol className="mt-10 space-y-10">
             {EXPERIENCE.map((item, index) => (
+            <FadeIn key={item.slug} delay={index * 0.1} className="h-full">
               <li key={item.slug} className="relative pl-8">
                 <span className="absolute left-0 top-1.5 h-2.5 w-2.5 rounded-full bg-zinc-950 dark:bg-zinc-50" />
 
@@ -39,10 +39,10 @@ export function Experience() {
                   View more
                 </Link>
               </li>
+            </FadeIn>
             ))}
           </ol>
         </Container>
-      </FadeIn>
     </section>
   );
 }

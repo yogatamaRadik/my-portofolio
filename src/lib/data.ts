@@ -57,16 +57,16 @@ export const EXPERIENCE: ExperienceItem[] = [
     role: "Process Engineering Intern",
     organization: "PT. Formulatrix Indonesia - Internship",
     period: "Sep 2026–Jan 2027 (On Going)",
-    summary: "Supported manufacturing and engineering processes for laboratory automation equipment, with hands-on involvement in assembly, and process improvement.",
+    summary: "Supported manufacture drawing for MANTIS V4, LC3, & TEMPEST Product. Involvement in drawing part, assembly, and process improvement.",
     fullDescription: `During my internship at FORMULATRIX, I was assigned to the MANTIS project as a Process Engineer Intern. My current responsibility focuses on redrawing JIG components used in the MANTIS V4 assembly process.
     
-    Right now, my responsibilities involved supporting production activities, understanding mechanical assemblies, and assisting in identifying improvements to ensure consistent product quality and reliability.
+    Involved supporting production activities, understanding mechanical assemblies, and assisting in identifying improvements to ensure consistent product quality and reliability for MANTIS V4, LC3, and TEMPEST.
     
     The work involves studying existing JIG parts, understanding their function and assembly requirements, and recreating their technical drawings and 3D models based on the available references. Through this process, I work with mechanical design principles, dimensional requirements, and manufacturing considerations to ensure the redesigned parts can be properly understood and reproduced.`,
     highlights: [
       "Assigned to the MANTIS project as a Process Engineer Intern",
-      "Redrawing JIG components for MANTIS V4",
-      "Recreated mechanical parts based on existing references and physical components"
+      "Redrawing JIG components for MANTIS V4, LC3, and TEMPEST",
+      "Recreated mechanical parts based on existing references and physical components (Parts, Drawing, and Assembly Parts)"
     ],
     images: [
 
@@ -175,10 +175,10 @@ export const EXPERIENCE: ExperienceItem[] = [
     organization: "SMK Mikael Surakarta - Internship",
     period: "Sep 2022–Oct 2022",
     summary: 
-    "Completed a one-month industrial internship in the Unit Production of SMK Katolik St. Mikael Surakarta, where I was directly involved in CNC milling manufacturing operations. Operated CNC Milling Neutron machines to manufacture production components.",
+    "Completed a one-month industrial internship in the Unit Production of SMK Katolik St. Mikael Surakarta, involved in CNC milling manufacturing operations. Operated CNC Milling Neutron machines to manufacture production components.",
     fullDescription: `During my internship in the Unit Production of SMK Katolik St. Mikael Surakarta, I was directly involved in CNC milling manufacturing operations. I operated CNC milling machines to manufacture production components based on technical drawings and machining requirements.
 
-    The experience provided hands-on exposure to the production workflow, including machine setup, tool selection, machining operations, and dimensional inspection. It also strengthened my understanding of CNC machining processes and how technical drawings are translated into physical components.`,
+    The experience provided exposure to the production workflow, including machine setup, tool selection, machining operations, and dimensional inspection. It also strengthened my understanding of CNC machining processes and how technical drawings are translated into physical components.`,
     highlights: 
     [
       "Operated CNC milling machines for production machining",

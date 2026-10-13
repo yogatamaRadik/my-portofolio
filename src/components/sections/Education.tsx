@@ -47,12 +47,12 @@ export function Education() {
       id="education"
       className="border-t border-black/[.08] bg-zinc-50 dark:border-white/[.145] dark:bg-zinc-900/40"
     >
-      <FadeIn>
         <Container size="narrow" className="font-display py-32">
           <SectionHeading eyebrow="03" title="Education" />
 
           <ol className="mt-10 space-y-10">
             {EDUCATION.map((item, index) => (
+            <FadeIn key={'${item.degree} ${item.detail} ${item.period} ${item.logo}'} delay={index * 0.1} className="h-full">
               <li key={item.institution} className="relative pl-8">
                 <span className="absolute left-0 top-1.5 h-2.5 w-2.5 rounded-full bg-zinc-950 dark:bg-zinc-50" />
 
@@ -85,10 +85,10 @@ export function Education() {
                   </div>
                 </div>
               </li>
+              </FadeIn>
             ))}
           </ol>
         </Container>
-      </FadeIn>
     </section>
   );
 }
